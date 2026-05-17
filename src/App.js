@@ -1,5 +1,5 @@
 import React from "react";
-import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
+import { Routes, Route, Link } from "react-router-dom";
 import { Layout, Typography, Space } from "antd";
 import {
   Navbar,
@@ -20,10 +20,15 @@ const App = () => {
         <Layout>
           <div className="routes">
             <Routes>
-              <Route path="/" element={<HomePage />} />
-              <Route path="/cryptocurrencies" element={<Cryptocurrencies />} />
-              <Route path="/crypto/:coinId" element={<CryptoDetails />} />
-              <Route path="/news" element={<News />} />
+              <Route exact path="/" element={<HomePage />} />
+              {/* <Route exact path="/:coinId/exchanges" element={<Exchanges />} /> */}
+              <Route
+                exact
+                path="/cryptocurrencies"
+                element={<Cryptocurrencies />}
+              />
+              <Route exact path="/crypto/:coinId" element={<CryptoDetails />} />
+              <Route exact path="/news" element={<News />} />
             </Routes>
           </div>
         </Layout>
