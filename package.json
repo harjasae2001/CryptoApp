@@ -14,7 +14,7 @@
     "html-react-parser": "^3.0.1",
     "millify": "^6.1.0",
     "moment": "^2.29.4",
-    "react": "^18.2.0",
+    "react": "^19.2.6",
     "react-chartjs-2": "^5.0.0",
     "react-dom": "^18.2.0",
     "react-redux": "^8.0.2",
