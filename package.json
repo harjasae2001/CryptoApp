@@ -9,7 +9,7 @@
     "@testing-library/user-event": "^14.6.1",
     "@testing-library/react": "^16.3.2",
     "antd": "^5.14.2",
-    "axios": "^1.16.1",
+    "axios": "^1.18.1",
     "chart.js": "^3.9.1",
     "html-react-parser": "^3.0.1",
     "millify": "^6.1.0",
